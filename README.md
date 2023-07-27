@@ -1,4 +1,4 @@
-# Your Python Web Application
+# Python Web Application
 
 ## Overview
 
