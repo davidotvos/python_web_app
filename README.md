@@ -41,7 +41,9 @@ pytest tests/
 
 To run the application locally, use the following command:
 
+```
 python app.py
+```
 
 The application will be available at http://127.0.0.1:5000/.
 
