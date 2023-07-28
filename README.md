@@ -76,7 +76,7 @@ The application will be accessible at http://localhost:5000/.
 
 ### Stop Docker Container
 
-To stop and remove the Docker container, run the following script:
+To stop the Docker container, run the following script:
 
 ```
 bash stop_docker.sh
