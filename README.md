@@ -1,5 +1,6 @@
 # Python Web Application
 
+
 ## Overview
 
 This is a simple Python web application that accepts POST requests with a parameter named 'string' and returns the same string with swapped case in the response body.
@@ -11,24 +12,29 @@ This is a simple Python web application that accepts POST requests with a parame
 - Docker
 - Ubuntu 20.04 (for shell scripts)
 
+
 ## Installation and Setup
 
 1. Clone this repository to your local machine:
 
-git clone <repository_url>
-cd your_app
+```
+git clone https://github.com/davidotvos/python_web_app.git
+cd python_web_app
+```
 
 2. Install the required Python dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 
 ## Testing
 
 To run the test cases for the application, execute the following command:
-
+```
 pytest tests/
-
+```
 
 ## Running the Application Locally
 
@@ -48,16 +54,19 @@ Before using Docker, make sure it's installed on your system.
 
 To build the Docker image containing the application, run the following script:
 
-chmod +x build_docker.sh
-./build_docker.sh
+```
+bash build_docker.sh
+```
 
 
 ### Start Docker Container
 
 To start the Docker container, run the following script:
 
-chmod +x start_docker.sh
-./start_docker.sh
+```
+bash start_docker.sh
+```
+
 
 The application will be accessible at http://localhost:5000/.
 
@@ -66,8 +75,9 @@ The application will be accessible at http://localhost:5000/.
 
 To stop and remove the Docker container, run the following script:
 
-chmod +x stop_docker.sh
-./stop_docker.sh
+```
+bash stop_docker.sh
+```
 
 
 ## Deployment
