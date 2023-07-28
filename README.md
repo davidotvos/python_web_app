@@ -36,6 +36,7 @@ To run the test cases for the application, execute the following command:
 pytest tests/
 ```
 
+
 ## Running the Application Locally
 
 To run the application locally, use the following command:
